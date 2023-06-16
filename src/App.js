@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import SideNavbar from "./components/SideNavbar";
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="m-2 min-h-[650px] bg-[#FFFFFF] rounded-2xl flex shadow-lg">
+      <SideNavbar />
+      <Header />
     </div>
   );
 }
