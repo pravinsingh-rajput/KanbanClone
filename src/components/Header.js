@@ -9,7 +9,7 @@ import {
 
 const Header = () => {
   return (
-    <header className="h-[66px] w-full relative border-b-2 flex justify-between items-center px-4 text-[#787486]">
+    <header className="h-[66px] w-full relative border-b-2 flex justify-between items-center px-8 text-[#787486]">
       {/* Search Section */}
       <form className="flex items-center justify-center bg-[#F5F5F5] p-2 rounded-lg">
         <CiSearch className="text-xl mr-4 " />
@@ -20,7 +20,7 @@ const Header = () => {
         />
       </form>
       {/* Left Conatiner */}
-      <div className="flex w-96 justify-between items-center mx-8">
+      <div className="flex w-96 justify-between items-center">
         {/* Noitification , Calender & Message */}
         <div className="text-2xl flex space-x-5">
           <AiOutlineCalendar className="cursor-pointer" />
