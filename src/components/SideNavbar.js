@@ -20,11 +20,13 @@ const SideNavbar = () => {
           <div className="w-3 h-3 bg-titlecolor rounded-xl opacity-40 absolute bottom-0 left-4"></div>
           <div className="w-3 h-3 bg-titlecolor rounded-xl opacity-60 absolute bottom-0 left-2"></div>
         </div>
+        {/* Header Title */}
         <p className="text-xl font-semibold">Project M.</p>
         <div className="w-6 h-5 flex items-center justify-center  cursor-pointer py-8 mx-10 ">
           <AiOutlineDoubleLeft className=" text-[#787486]" />
         </div>
       </div>
+      {/* Navigations */}
       <div className=" border-b-2 text-[#787486] ">
         <ul className="flex flex-col justify-between w-full h-full p-4 py-3 space-y-1 ">
           <li className=" space-x-2 cursor-pointer h-8 ">
@@ -44,12 +46,15 @@ const SideNavbar = () => {
           </li>
         </ul>
       </div>
+      {/* Projects */}
       <div className="p-4 px-2 text-[#787486] border-b-2">
+        {/* Title */}
         <div className="project_title flex justify-between items-center pl-4 ">
           <p className="text-[11px] font-semibold">MY PROJECTS</p>
           <CiSquarePlus />
         </div>
-        <div className="navigate">
+        {/* Working Projects */}
+        <div className="projects">
           <ul className="flex flex-col justify-between w-full h-full py-3 space-y-1 ">
             <li className=" space-x-2 cursor-pointer bg-[#5130e533] rounded-md h-8 pl-2">
               <div className="w-2 h-2 rounded-xl bg-[#7AC555]"></div>
@@ -73,6 +78,7 @@ const SideNavbar = () => {
           </ul>
         </div>
       </div>
+      {/* Thoughts/ Message */}
       <div className=" items-center p-4  relative text-[#787486] ">
         <div className="bg-[#e4e4e7] w-[200px] p-4 text-sm mt-5 rounded-lg relative ">
           <div className="absolute top-[-30px] right-[70px] rounded-full bg-[#e4e4e7] w-14  p-4 flex item-center justify-center">
