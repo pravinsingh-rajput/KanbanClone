@@ -12,15 +12,15 @@ const DashBoardHeader = () => {
         <div className="flex space-x-3 items-center">
           <h4 className="text-4xl font-semibold">Mobile App</h4>
           <span>
-            <MdOutlineModeEditOutline className="text-blue-800 bg-blue-500/30 rounded-md h-5 cursor-pointer w-5 p-[2px]" />
+            <MdOutlineModeEditOutline className="text-blue-800 bg-blue-500/20 rounded-md h-5 cursor-pointer w-5 p-[2px]" />
           </span>
           <span>
-            <BsLink className="text-blue-800 bg-blue-500/30 rounded-md h-5 w-5 p-[2px] cursor-pointer" />
+            <BsLink className="text-blue-800 bg-blue-500/20 rounded-md h-5 w-5 p-[2px] cursor-pointer" />
           </span>
         </div>
         {/* Invite link */}
         <div className="relative flex items-center space-x-2">
-          <AiOutlinePlus className="text-blue-800 bg-blue-500/30 rounded-md h-5 w-5 p-[2px] cursor-pointer" />
+          <AiOutlinePlus className="text-blue-800 bg-blue-500/20 rounded-md h-5 w-5 p-[2px] cursor-pointer" />
           <span className="text-[#5030E5] font-[500] cursor-pointer">
             Invite
           </span>
