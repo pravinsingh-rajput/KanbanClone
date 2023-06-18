@@ -4,7 +4,7 @@ import SideNavbar from "./components/SideNavbar";
 
 function App() {
   return (
-    <div className="m-2 min-h-[650px] bg-[#FFFFFF] rounded-2xl flex shadow-lg">
+    <div className="m-[6px] h-[750px] bg-[#FFFFFF] rounded-2xl flex shadow-lg overflow-hidden">
       <SideNavbar />
       <div className="w-full">
         <Header />

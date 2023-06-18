@@ -28,7 +28,7 @@ const SideNavbar = () => {
       </div>
       {/* Navigations */}
       <div className=" border-b-2 text-[#787486] ">
-        <ul className="flex flex-col justify-between w-full h-full p-4 py-3 space-y-1 ">
+        <ul className="flex flex-col justify-between w-full h-full p-4 py-[7px] space-y-1 ">
           <li className=" space-x-2 cursor-pointer h-8 ">
             <AiOutlineHome className="text-xl " /> <span>Home</span>
           </li>
@@ -55,7 +55,7 @@ const SideNavbar = () => {
         </div>
         {/* Working Projects */}
         <div className="projects">
-          <ul className="flex flex-col justify-between w-full h-full py-3 space-y-1 ">
+          <ul className="flex flex-col justify-between w-full h-full py-[7px] space-y-1 ">
             <li className=" space-x-2 cursor-pointer bg-[#5130e533] rounded-md h-8 pl-2">
               <div className="w-2 h-2 rounded-xl bg-[#7AC555]"></div>
               <div className="flex relative text-black items-center justify-between w-full ">
@@ -79,7 +79,7 @@ const SideNavbar = () => {
         </div>
       </div>
       {/* Thoughts/ Message */}
-      <div className=" items-center p-4  relative text-[#787486] ">
+      <div className=" items-center p-4 relative text-[#787486] ">
         <div className="bg-[#e4e4e7] w-[200px] p-4 text-sm mt-5 rounded-lg relative ">
           <div className="absolute top-[-30px] right-[70px] rounded-full bg-[#e4e4e7] w-14  p-4 flex item-center justify-center">
             <AiOutlineBulb className=" text-xl " />
@@ -87,7 +87,7 @@ const SideNavbar = () => {
           <p className="w-full text-center text-black font-semibold z-50">
             Thoughts Time
           </p>
-          <p className="text-sm text-center py-2">
+          <p className="text-[13px] text-center py-[4px]">
             We don’t have any notice for you, till then you can share your
             thoughts with your peers.
           </p>
